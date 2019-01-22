@@ -76,7 +76,7 @@ class Products extends Component {
               for (var i = 0; i < request.result.length; i++) {
                 axios.post("https://node-project-011019.herokuapp.com/postitems.json", { item: request.result[i] })
                   .then(res => {
-                     const postData = res.data;
+                    // const postData = res.data;
                   });
                 //store.delete(request.result[i]);
               }
